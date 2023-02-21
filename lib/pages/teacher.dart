@@ -32,17 +32,17 @@ class _TeacherState extends State<Teacher> {
                 : ListView.builder(
                     shrinkWrap: true,
                     physics: ClampingScrollPhysics(),
-                    itemCount: snapshot.data.documents.length,
+                    itemCount: snapshot.data!.docs.length,
                     itemBuilder: (context, index) {
                       return QuizTile(
-                        noOfQuestions: snapshot.data.documents.length,
+                        noOfQuestions: snapshot.data!.docs.length,//docs
                         imageUrl:
-                            snapshot.data.documents[index].data['quizImgUrl'],
+                            snapshot.data!.docs[index].data()['quizImgURL'],//data will be accessed with ()
                         title:
-                            snapshot.data.documents[index].data['quizTitle'],
+                            snapshot.data!.docs[index].data()['quizTitle'],
                         description:
-                            snapshot.data.documents[index].data['quizDescription'],
-                        id: snapshot.data.documents[index].data["quizID"],
+                            snapshot.data!.docs[index].data()['quizDescription'],
+                        id: snapshot.data!.docs[index].data()["quizID"],
                       );
                     });
           },
