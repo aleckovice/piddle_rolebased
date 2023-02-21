@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "313593987117",
+    "project_id": "piddle-rolebased",
+    "storage_bucket": "piddle-rolebased.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:313593987117:android:9780c485018c5741b238a4",
+        "android_client_info": {
+          "package_name": "com.example.piddle_rolebased"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "313593987117-87dlokrifq2f1t0dtfpg63derjks8mms.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4M3s_de0fJiG4AO1jhIcZacQINtG--7A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "313593987117-87dlokrifq2f1t0dtfpg63derjks8mms.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "313593987117-ig8q4h6pib54v07g952ur3ehkaq7h5l2.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.piddleRolebased"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
